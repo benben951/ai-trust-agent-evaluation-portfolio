@@ -17,7 +17,7 @@ Agent Trust Lab is the best entry point. It shows that I can turn subjective AI 
 
 ## Strongest Story For Agent Roles
 
-Agent Workflow Bench is the best entry point. It evaluates the full workflow, not just the final answer. It records planner notes, candidate outputs, reviewer feedback, verifier reports, evidence coverage, risk flags, human-takeover recommendations, failure types, and run manifests. This makes agent behavior easier to compare, debug, and improve.
+Agent Workflow Bench is the best entry point. It evaluates the full workflow, not just the final answer. It records planner notes, candidate outputs, reviewer feedback, verifier reports, evidence coverage, risk flags, human-takeover recommendations, success/failure samples, failure types, and run manifests. This makes agent behavior easier to compare, debug, and improve.
 
 ## Strongest Story For Risk-Tech / Trust & Safety AI Roles
 
