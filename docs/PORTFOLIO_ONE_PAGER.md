@@ -12,7 +12,7 @@ This portfolio connects four public projects into one coherent direction: LLM ou
 
 | Layer | Project | What It Proves | Public Evidence |
 |---|---|---|---|
-| LLM output trust | Agent Trust Lab | I can turn ambiguous LLM outputs into auditable trust reports and review-routing metrics. | Live demo, recruiter review packet, 10-case synthetic eval set, Markdown/JSON reports, CI, metrics |
+| LLM output trust | Agent Trust Lab | I can turn ambiguous LLM outputs into auditable trust reports, multi-role review traces, and review-routing metrics. | Live demo, recruiter review packet, workflow trace, 10-case synthetic eval set, Markdown/JSON reports, CI, metrics |
 | Agent workflow trust | Agent Workflow Bench | I can benchmark planner-executor-reviewer-verifier workflows with artifacts and verifier outputs. | Public repo, simulated pipeline, CI, summary JSON, Markdown report, sample run artifacts |
 | Infrastructure trust | LLM Proxy Auditor | I can audit OpenAI-compatible proxy risks before connecting agents to them. | CI, deterministic probes, scoring model, report preview, case study |
 | Regulated-domain application | Gemma AML Compliance Assistant | I can build and evaluate offline RAG-style assistants for AML and due-diligence workflows with grounding, escalation, and uncertainty handling. | Public repo, CI, AML RAG case study, sample eval summary, governance checklist |
@@ -28,6 +28,7 @@ Risk-sensitive LLM output evaluation system with a live review console, syntheti
 Public proof:
 
 - Recruiter-facing review packet with case library, metrics, representative reports, reproduction commands, interview pitch, resume bullets, and public-safe boundary
+- Public-safe multi-role workflow trace with evidence, policy, risk, escalation, and final-review notes for a synthetic agent-output failure
 - 10-case synthetic eval library across AML, KYC, due diligence, Trust & Safety, customer support compliance, agent output review, and AI data quality
 - Markdown trust reports and JSON summaries
 - Evaluation metrics: 80% manual-review routing, 40% low-trust cases, average risk score 53.0
@@ -36,7 +37,7 @@ Public proof:
 
 Interview angle:
 
-This project shows that I understand AI evaluation as a review workflow, not just answer scoring. It emphasizes false-pass prevention, uncertainty handling, evidence support, and human escalation.
+This project shows that I understand AI evaluation as a review workflow, not just answer scoring. It emphasizes false-pass prevention, uncertainty handling, evidence support, role-level review traces, and human escalation.
 
 ## 2. Agent Workflow Bench
 
@@ -102,7 +103,7 @@ LLM endpoint trust
 
 LLM output trust
   -> Agent Trust Lab
-      reviews model outputs and routes uncertain/high-risk cases to humans
+      reviews model outputs through trust reports and public-safe multi-role workflow traces
 
 Agent workflow trust
   -> Agent Workflow Bench
@@ -126,8 +127,8 @@ Regulated application context
 
 ## Short Pitch
 
-I am not only using LLMs to produce answers. I am building evaluation and trust systems around LLM outputs, agent workflows, and proxy infrastructure. My projects demonstrate live demos, CI, synthetic evaluation sets, trust reports, verifier artifacts, and human-in-the-loop safety boundaries.
+I am not only using LLMs to produce answers. I am building evaluation and trust systems around LLM outputs, agent workflows, and proxy infrastructure. My projects demonstrate live demos, CI, synthetic evaluation sets, trust reports, multi-role workflow traces, verifier artifacts, and human-in-the-loop safety boundaries.
 
 ## Resume Summary Version
 
-AI application and evaluation engineer focused on risk-sensitive LLM review, agent workflow evaluation, proxy trust auditing, and regulated-domain AI systems. Built public projects including Agent Trust Lab, Agent Workflow Bench, LLM Proxy Auditor, and Gemma AML Compliance Assistant, with CI, live demos, synthetic eval sets, trust reports, verifier artifacts, and governance boundaries.
+AI application and evaluation engineer focused on risk-sensitive LLM review, agent workflow evaluation, proxy trust auditing, and regulated-domain AI systems. Built public projects including Agent Trust Lab, Agent Workflow Bench, LLM Proxy Auditor, and Gemma AML Compliance Assistant, with CI, live demos, synthetic eval sets, trust reports, multi-role workflow traces, verifier artifacts, and governance boundaries.
