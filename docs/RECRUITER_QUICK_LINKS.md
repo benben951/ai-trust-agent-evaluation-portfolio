@@ -9,15 +9,17 @@ This page is a fast navigation guide for AI evaluation, AI application engineeri
 | [Portfolio hub](https://github.com/benben951/ai-trust-agent-evaluation-portfolio) | Shows the full AI trust and agent evaluation direction. |
 | [Agent Trust Lab review packet](https://github.com/benben951/agent-trust-lab/blob/main/docs/REVIEW_PACKET.md) | Shows the strongest project evidence: case library, metrics, reports, commands, and boundaries. |
 | [Agent Trust Lab workflow trace](https://github.com/benben951/agent-trust-lab/blob/main/examples/workflow_report_agent_tool_failure.md) | Shows public-safe multi-role review notes for evidence, policy, risk, escalation, and final review. |
+| [Agent Trust Lab context engineering](https://github.com/benben951/agent-trust-lab/blob/main/docs/CONTEXT_ENGINEERING.md) | Shows how the project is maintained with explicit context, generated artifacts, tests, and browser-demo checks. |
 | [Live Agent Trust Lab demo](https://benben951.github.io/agent-trust-lab/) | Shows the review console is usable, not just a README idea. |
 
 ## 3-Minute Project Path
 
 1. Start with [Agent Trust Lab](https://github.com/benben951/agent-trust-lab) for LLM output review, trust reports, review-routing metrics, and human-in-the-loop governance.
 2. Open the [workflow trace](https://github.com/benben951/agent-trust-lab/blob/main/examples/workflow_report_agent_tool_failure.md) to see how one synthetic agent-output failure is decomposed into role-level review notes.
-3. Open [Agent Workflow Bench](https://github.com/benben951/agent-workflow-bench) to see planner-executor-reviewer-verifier workflow evaluation with artifacts and verifier output.
-4. Open [LLM Proxy Auditor](https://github.com/benben951/llm-proxy-auditor) to see endpoint/proxy trust checks before agents depend on a model API.
-5. Open [Gemma AML Compliance Assistant](https://github.com/benben951/gemma-aml-assistant) to see regulated-domain RAG and AML/due-diligence style evaluation.
+3. Open the [context-engineering note](https://github.com/benben951/agent-trust-lab/blob/main/docs/CONTEXT_ENGINEERING.md) to see how AI-assisted development is bounded, verified, and made reviewable.
+4. Open [Agent Workflow Bench](https://github.com/benben951/agent-workflow-bench) to see planner-executor-reviewer-verifier workflow evaluation with artifacts and verifier output.
+5. Open [LLM Proxy Auditor](https://github.com/benben951/llm-proxy-auditor) to see endpoint/proxy trust checks before agents depend on a model API.
+6. Open [Gemma AML Compliance Assistant](https://github.com/benben951/gemma-aml-assistant) to see regulated-domain RAG and AML/due-diligence style evaluation.
 
 ## Role Fit Map
 
@@ -37,6 +39,7 @@ This page is a fast navigation guide for AI evaluation, AI application engineeri
 - I can report metrics beyond accuracy, including manual-review routing, low-trust rate, recommendations, and finding distribution.
 - I can separate model output review, agent workflow review, and infrastructure trust checks.
 - I understand human-in-the-loop boundaries for risk-sensitive AI systems.
+- I can use AI coding tools inside an explicit context, verification, and audit workflow rather than relying on unverified generation.
 
 ## Public-Safe Boundary
 
@@ -46,4 +49,3 @@ These projects are public-safe prototypes and case studies.
 - No real customer data or regulated case data is included.
 - The systems do not automate high-risk compliance approval.
 - The public repositories show demos, reports, architecture, and evaluation artifacts, while patent-sensitive implementation details remain private.
-
