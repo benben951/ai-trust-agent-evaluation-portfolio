@@ -19,7 +19,7 @@ I am building toward foreign-company roles in LLM evaluation, AI application eng
 | Layer | Project | What it proves | Evidence |
 |---|---|---|---|
 | LLM endpoint trust | [LLM Proxy Auditor](https://github.com/benben951/llm-proxy-auditor) | Audits OpenAI-compatible proxy risks before agents depend on them. | Deterministic probes, scoring model, CI, report preview |
-| LLM output trust | [Agent Trust Lab](https://github.com/benben951/agent-trust-lab) | Converts ambiguous LLM outputs into reviewable trust reports and escalation metrics. | [Live demo](https://benben951.github.io/agent-trust-lab/), synthetic eval set, Markdown/JSON reports, CI |
+| LLM output trust | [Agent Trust Lab](https://github.com/benben951/agent-trust-lab) | Converts ambiguous LLM outputs into reviewable trust reports and escalation metrics. | [Live demo](https://benben951.github.io/agent-trust-lab/), [review packet](https://github.com/benben951/agent-trust-lab/blob/main/docs/REVIEW_PACKET.md), synthetic eval set, Markdown/JSON reports, CI |
 | Agent workflow trust | [Agent Workflow Bench](https://github.com/benben951/agent-workflow-bench) | Evaluates planner-executor-reviewer-verifier workflows with artifacts and verifier output. | Simulated pipeline, CI, summary JSON, Markdown report, sample run artifacts |
 | Regulated-domain application | [Gemma AML Compliance Assistant](https://github.com/benben951/gemma-aml-assistant) | Applies local LLM/RAG workflows to AML and due-diligence style knowledge assistance. | Public repo, CI, AML RAG case study, sample eval summary, grounding and uncertainty handling |
 
@@ -54,6 +54,7 @@ These projects intentionally use public-safe examples and synthetic evaluation d
 
 ## Latest Evidence Update
 
+- `2026-06-06`: Strengthened [Agent Trust Lab](https://github.com/benben951/agent-trust-lab) with a recruiter-facing review packet covering the case library, metrics, representative reports, reproduction commands, interview pitch, resume bullets, and public-safe boundary.
 - `2026-06-06`: Strengthened [Agent Workflow Bench](https://github.com/benben951/agent-workflow-bench) with summary JSON and recruiter-readable Markdown report generation from run manifests.
 - `2026-06-06`: Strengthened [Gemma AML Compliance Assistant](https://github.com/benben951/gemma-aml-assistant) with a public-safe AML RAG case study, sample scored outputs, evaluation summary artifacts, CI badge, and human-in-the-loop governance boundary.
 
