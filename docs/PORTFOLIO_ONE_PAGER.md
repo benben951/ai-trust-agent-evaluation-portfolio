@@ -12,7 +12,7 @@ This portfolio connects four public projects into one coherent direction: LLM ou
 
 | Layer | Project | What It Proves | Public Evidence |
 |---|---|---|---|
-| LLM output trust | Agent Trust Lab | I can turn ambiguous LLM outputs into auditable trust reports, multi-role review traces, and review-routing metrics. | Live demo, recruiter review packet, workflow trace, 10-case synthetic eval set, Markdown/JSON reports, CI, metrics |
+| LLM output trust | Agent Trust Lab | I can turn ambiguous LLM outputs into auditable trust reports, multi-role review traces, and review-routing metrics. | Live demo, recruiter review packet, baseline comparison, spot-check log, EMNLP demo draft, 40-case synthetic eval set, Markdown/JSON reports, CI, metrics |
 | Agent workflow trust | Agent Workflow Bench | I can benchmark planner-executor-reviewer-verifier workflows with artifacts and verifier outputs. | Public repo, simulated pipeline, CI, summary JSON, Markdown report, sample run artifacts |
 | Infrastructure trust | LLM Proxy Auditor | I can audit OpenAI-compatible proxy risks before connecting agents to them. | CI, deterministic probes, scoring model, report preview, case study |
 | Regulated-domain application | Gemma AML Compliance Assistant | I can build and evaluate offline RAG-style assistants for AML and due-diligence workflows with grounding, escalation, and uncertainty handling. | Public repo, CI, AML RAG case study, sample eval summary, governance checklist |
@@ -23,17 +23,17 @@ This portfolio connects four public projects into one coherent direction: LLM ou
 - Live demo: https://benben951.github.io/agent-trust-lab/
 - Review packet: https://github.com/benben951/agent-trust-lab/blob/main/docs/REVIEW_PACKET.md
 
-Risk-sensitive LLM output evaluation system with a live review console, synthetic eval set, batch trust-report generation, evaluation metrics, and human-review routing.
+Risk-sensitive LLM output evaluation system with a live review console, 40-case synthetic eval set, batch trust-report generation, baseline comparison, spot-check log, evaluation metrics, and human-review routing.
 
 Public proof:
 
 - Recruiter-facing review packet with case library, metrics, representative reports, reproduction commands, interview pitch, resume bullets, and public-safe boundary
 - Public-safe multi-role workflow trace with evidence, policy, risk, escalation, and final-review notes for a synthetic agent-output failure
-- 10-case synthetic eval library across AML, KYC, due diligence, Trust & Safety, customer support compliance, agent output review, and AI data quality
+- 40-case synthetic eval library across AML, KYC, sanctions, due diligence, Trust & Safety, customer support, HR, legal, health-safety, financial services, agent output review, and AI data quality
 - Markdown trust reports and JSON summaries
-- Evaluation metrics: 80% manual-review routing, 40% low-trust cases, average risk score 53.0
-- Finding distribution for policy mismatch, missing escalation, unsafe certainty, and unsupported claims
-- CI, GitHub Pages demo, technical report, governance boundary
+- Evaluation metrics: 65% manual-review routing, 47.5% low-trust cases, average risk score 47.62
+- Naive-baseline comparison: 26 naive accepts, 19 false accepts, 48% false-accept rate
+- Human spot-check protocol/log, EMNLP demo draft, CI, GitHub Pages demo, technical report, governance boundary
 
 Interview angle:
 
@@ -103,7 +103,7 @@ LLM endpoint trust
 
 LLM output trust
   -> Agent Trust Lab
-      reviews model outputs through trust reports and public-safe multi-role workflow traces
+      reviews model outputs through trust reports, public-safe multi-role workflow traces, baseline comparison, and spot-check logs
 
 Agent workflow trust
   -> Agent Workflow Bench
@@ -127,7 +127,7 @@ Regulated application context
 
 ## Short Pitch
 
-I am not only using LLMs to produce answers. I am building evaluation and trust systems around LLM outputs, agent workflows, and proxy infrastructure. My projects demonstrate live demos, CI, synthetic evaluation sets, trust reports, multi-role workflow traces, verifier artifacts, and human-in-the-loop safety boundaries.
+I am not only using LLMs to produce answers. I am building evaluation and trust systems around LLM outputs, agent workflows, and proxy infrastructure. My projects demonstrate live demos, CI, synthetic evaluation sets, trust reports, baseline comparisons, spot-check logs, multi-role workflow traces, verifier artifacts, and human-in-the-loop safety boundaries.
 
 ## Resume Summary Version
 
