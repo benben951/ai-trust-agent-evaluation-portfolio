@@ -1,0 +1,6 @@
+﻿# No generated cache, local virtualenvs, or private application material
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
