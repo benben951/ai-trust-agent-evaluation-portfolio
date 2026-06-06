@@ -1,4 +1,4 @@
-﻿# Interview Notes
+# Interview Notes
 
 ## 60-Second Portfolio Pitch
 
@@ -17,7 +17,7 @@ Agent Trust Lab is the best entry point. It shows that I can turn subjective AI 
 
 ## Strongest Story For Agent Roles
 
-Agent Workflow Bench is the best entry point. It evaluates the full workflow, not just the final answer. It records planner notes, candidate outputs, reviewer feedback, verifier reports, failure types, and run manifests. This makes agent behavior easier to compare, debug, and improve.
+Agent Workflow Bench is the best entry point. It evaluates the full workflow, not just the final answer. It records planner notes, candidate outputs, reviewer feedback, verifier reports, evidence coverage, risk flags, human-takeover recommendations, failure types, and run manifests. This makes agent behavior easier to compare, debug, and improve.
 
 ## Strongest Story For Risk-Tech / Trust & Safety AI Roles
 
@@ -32,4 +32,4 @@ LLM Proxy Auditor plus Agent Trust Lab is the strongest pair. The first checks w
 
 ## Resume-Safe Summary
 
-Built a public AI trust and agent evaluation portfolio covering LLM proxy auditing, LLM output review, planner-executor-reviewer-verifier workflow evaluation, and regulated-domain RAG assistance. Projects include CI, live demo, synthetic evaluation sets, trust reports, baseline comparisons, spot-check logs, multi-role workflow traces, verifier artifacts, and human-in-the-loop governance boundaries.
+Built a public AI trust and agent evaluation portfolio covering LLM proxy auditing, LLM output review, planner-executor-reviewer-verifier workflow evaluation, and regulated-domain RAG assistance. Projects include CI, live demo, synthetic evaluation sets, trust reports, baseline comparisons, spot-check logs, multi-role workflow traces, verifier artifacts, evidence coverage, risk flags, human-takeover metrics, and human-in-the-loop governance boundaries.
