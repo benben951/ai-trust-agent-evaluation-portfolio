@@ -21,7 +21,7 @@ I am building toward foreign-company roles in LLM evaluation, AI application eng
 |---|---|---|---|
 | LLM endpoint trust | [LLM Proxy Auditor](https://github.com/benben951/llm-proxy-auditor) | Audits OpenAI-compatible proxy risks before agents depend on them. | Deterministic probes, scoring model, CI, report preview |
 | LLM output trust | [Agent Trust Lab](https://github.com/benben951/agent-trust-lab) | Converts ambiguous LLM/agent outputs into reviewable trust reports, multi-role review traces, baseline comparisons, spot-check logs, escalation metrics, and context-engineered delivery evidence. | [Live demo](https://benben951.github.io/agent-trust-lab/), [review packet](https://github.com/benben951/agent-trust-lab/blob/main/docs/REVIEW_PACKET.md), [baseline comparison](https://github.com/benben951/agent-trust-lab/blob/main/examples/baseline_comparison.md), [spot-check log](https://github.com/benben951/agent-trust-lab/blob/main/docs/HUMAN_SPOT_CHECK_LOG.md), [EMNLP demo draft](https://github.com/benben951/agent-trust-lab/blob/main/docs/EMNLP_DEMO_DRAFT.md), 40-case synthetic eval set, Markdown/JSON reports, CI |
-| Agent workflow trust | [Agent Workflow Bench](https://github.com/benben951/agent-workflow-bench) | Evaluates planner-executor-reviewer-verifier workflows with artifacts and verifier output. | Simulated pipeline, CI, summary JSON, Markdown report, sample run artifacts |
+| Agent workflow trust | [Agent Workflow Bench](https://github.com/benben951/agent-workflow-bench) | Evaluates planner-executor-reviewer-verifier workflows with artifacts, verifier output, evidence coverage, risk flags, and human-takeover recommendations. | Simulated pipeline, CI, evidence coverage, risk flags, human-takeover metrics, summary JSON, Markdown report, sample run artifacts |
 | Regulated-domain application | [Gemma AML Compliance Assistant](https://github.com/benben951/gemma-aml-assistant) | Applies local LLM/RAG workflows to AML and due-diligence style knowledge assistance. | Public repo, CI, AML RAG case study, sample eval summary, grounding and uncertainty handling |
 
 ## Why These Projects Fit Together
@@ -37,7 +37,7 @@ LLM output trust
 
 Agent workflow trust
   -> Agent Workflow Bench
-      evaluates planner-executor-reviewer-verifier workflows with artifacts
+      evaluates planner-executor-reviewer-verifier workflows with artifacts, evidence coverage, risk flags, and human-takeover metrics
 
 Regulated application context
   -> Gemma AML Compliance Assistant
@@ -57,7 +57,7 @@ These projects intentionally use public-safe examples and synthetic evaluation d
 
 - `2026-06-07`: Expanded [Agent Trust Lab](https://github.com/benben951/agent-trust-lab) to a 40-case public-safe synthetic evaluation library with naive-baseline comparison, 15-case author spot-check log, EMNLP demo draft, and regression-tested missing-escalation handling.
 - `2026-06-06`: Added public-safe multi-role workflow trace, context-engineering note, and recruiter-facing review packet to [Agent Trust Lab](https://github.com/benben951/agent-trust-lab).
-- `2026-06-06`: Strengthened [Agent Workflow Bench](https://github.com/benben951/agent-workflow-bench) with summary JSON and recruiter-readable Markdown report generation from run manifests.
+- `2026-06-06`: Strengthened [Agent Workflow Bench](https://github.com/benben951/agent-workflow-bench) with summary JSON, recruiter-readable Markdown reports, evidence coverage, risk flags, and human-takeover metrics from run manifests.
 - `2026-06-06`: Strengthened [Gemma AML Compliance Assistant](https://github.com/benben951/gemma-aml-assistant) with a public-safe AML RAG case study, sample scored outputs, evaluation summary artifacts, CI badge, and human-in-the-loop governance boundary.
 
 ## Target Roles
