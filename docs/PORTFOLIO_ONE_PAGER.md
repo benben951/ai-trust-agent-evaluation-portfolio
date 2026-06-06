@@ -107,7 +107,7 @@ LLM output trust
 
 Agent workflow trust
   -> Agent Workflow Bench
-      evaluates planner-executor-reviewer-verifier workflows with artifacts
+      evaluates planner-executor-reviewer-verifier workflows with artifacts, evidence coverage, risk flags, and human-takeover metrics
 
 Regulated application context
   -> Gemma AML Compliance Assistant
