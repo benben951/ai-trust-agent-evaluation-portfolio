@@ -10,6 +10,7 @@ I am building toward foreign-company roles in LLM evaluation, AI application eng
 
 ## Portfolio One-Pager
 
+- [Recruiter quick links](docs/RECRUITER_QUICK_LINKS.md)
 - [Markdown one-pager](docs/PORTFOLIO_ONE_PAGER.md)
 - [PDF one-pager](docs/AI_Trust_Agent_Evaluation_Portfolio_Guo_Zhaojie_20260606.pdf)
 - [Interview notes](docs/INTERVIEW_NOTES.md)
