@@ -13,7 +13,7 @@ This portfolio connects four public projects into one coherent direction: LLM ou
 | Layer | Project | What It Proves | Public Evidence |
 |---|---|---|---|
 | LLM output trust | Agent Trust Lab | I can turn ambiguous LLM outputs into auditable trust reports and review-routing metrics. | Live demo, 10-case synthetic eval set, Markdown/JSON reports, CI, metrics |
-| Agent workflow trust | Agent Workflow Bench | I can benchmark planner-executor-reviewer-verifier workflows with artifacts and verifier outputs. | Public repo, simulated pipeline, CI, sample run artifacts |
+| Agent workflow trust | Agent Workflow Bench | I can benchmark planner-executor-reviewer-verifier workflows with artifacts and verifier outputs. | Public repo, simulated pipeline, CI, summary JSON, Markdown report, sample run artifacts |
 | Infrastructure trust | LLM Proxy Auditor | I can audit OpenAI-compatible proxy risks before connecting agents to them. | CI, deterministic probes, scoring model, report preview, case study |
 | Regulated-domain application | Gemma AML Compliance Assistant | I can build and evaluate offline RAG-style assistants for AML and due-diligence workflows with grounding, escalation, and uncertainty handling. | Public repo, CI, AML RAG case study, sample eval summary, governance checklist |
 
@@ -48,12 +48,13 @@ Public proof:
 - Reproducible simulated pipeline that does not require external model access
 - Generates planner note, candidate output, reviewer note, verifier report, and JSON manifest
 - Records pass rate, verifier status, failure types, latency, timeout, and reviewed artifact paths
+- Generates aggregate summary JSON and recruiter-readable Markdown reports from run manifests
 - Includes CI, task specs, workflow specs, rubric judge, and public-safe sample artifacts
 - Also records live Codex-backed run history separately from simulated runs
 
 Interview angle:
 
-This project shows that I can evaluate agent workflows as systems, including success, failure, timeout, and verification evidence, instead of only showing successful demo runs.
+This project shows that I can evaluate agent workflows as systems, including success, failure, timeout, verification evidence, aggregate metrics, and reportable artifacts instead of only showing successful demo runs.
 
 ## 3. LLM Proxy Auditor
 
