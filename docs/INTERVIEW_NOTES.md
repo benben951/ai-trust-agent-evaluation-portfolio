@@ -13,7 +13,7 @@ The four projects cover different layers of the same problem:
 
 ## Strongest Story For LLM Evaluation Roles
 
-Agent Trust Lab is the best entry point. It shows that I can turn subjective AI output review into a structured workflow: synthetic cases, risk scoring, finding taxonomy, trust reports, manual-review routing, and evaluation metrics. This is close to real annotation quality, model behavior evaluation, and human-in-the-loop review operations.
+Agent Trust Lab is the best entry point. It shows that I can turn subjective AI output review into a structured workflow: synthetic cases, risk scoring, finding taxonomy, trust reports, manual-review routing, and evaluation metrics. The recruiter-facing review packet makes the evidence easy to inspect: case library, representative reports, reproduction commands, interview pitch, resume bullets, and public-safe boundaries. This is close to real annotation quality, model behavior evaluation, and human-in-the-loop review operations.
 
 ## Strongest Story For Agent Roles
 
