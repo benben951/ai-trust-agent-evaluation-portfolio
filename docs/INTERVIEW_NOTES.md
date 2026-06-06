@@ -7,13 +7,13 @@ My portfolio is centered on AI trust and agent evaluation. Instead of only build
 The four projects cover different layers of the same problem:
 
 - LLM Proxy Auditor checks whether an OpenAI-compatible endpoint is safe enough to connect to agents.
-- Agent Trust Lab reviews LLM outputs and generates trust reports with review-routing metrics.
+- Agent Trust Lab reviews LLM outputs and generates trust reports, public-safe multi-role workflow traces, and review-routing metrics.
 - Agent Workflow Bench evaluates planner-executor-reviewer-verifier workflows through reproducible artifacts.
 - Gemma AML Compliance Assistant applies local LLM/RAG ideas to an AML and due-diligence style scenario.
 
 ## Strongest Story For LLM Evaluation Roles
 
-Agent Trust Lab is the best entry point. It shows that I can turn subjective AI output review into a structured workflow: synthetic cases, risk scoring, finding taxonomy, trust reports, manual-review routing, and evaluation metrics. The recruiter-facing review packet makes the evidence easy to inspect: case library, representative reports, reproduction commands, interview pitch, resume bullets, and public-safe boundaries. This is close to real annotation quality, model behavior evaluation, and human-in-the-loop review operations.
+Agent Trust Lab is the best entry point. It shows that I can turn subjective AI output review into a structured workflow: synthetic cases, risk scoring, finding taxonomy, trust reports, public-safe multi-role workflow traces, manual-review routing, and evaluation metrics. The recruiter-facing review packet makes the evidence easy to inspect: case library, representative reports, workflow trace, reproduction commands, interview pitch, resume bullets, and public-safe boundaries. This is close to real annotation quality, model behavior evaluation, and human-in-the-loop review operations.
 
 ## Strongest Story For Agent Roles
 
@@ -32,4 +32,4 @@ LLM Proxy Auditor plus Agent Trust Lab is the strongest pair. The first checks w
 
 ## Resume-Safe Summary
 
-Built a public AI trust and agent evaluation portfolio covering LLM proxy auditing, LLM output review, planner-executor-reviewer-verifier workflow evaluation, and regulated-domain RAG assistance. Projects include CI, live demo, synthetic evaluation sets, trust reports, verifier artifacts, and human-in-the-loop governance boundaries.
+Built a public AI trust and agent evaluation portfolio covering LLM proxy auditing, LLM output review, planner-executor-reviewer-verifier workflow evaluation, and regulated-domain RAG assistance. Projects include CI, live demo, synthetic evaluation sets, trust reports, multi-role workflow traces, verifier artifacts, and human-in-the-loop governance boundaries.
