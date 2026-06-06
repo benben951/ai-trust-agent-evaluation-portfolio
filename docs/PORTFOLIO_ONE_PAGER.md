@@ -12,7 +12,7 @@ This portfolio connects four public projects into one coherent direction: LLM ou
 
 | Layer | Project | What It Proves | Public Evidence |
 |---|---|---|---|
-| LLM output trust | Agent Trust Lab | I can turn ambiguous LLM outputs into auditable trust reports and review-routing metrics. | Live demo, 10-case synthetic eval set, Markdown/JSON reports, CI, metrics |
+| LLM output trust | Agent Trust Lab | I can turn ambiguous LLM outputs into auditable trust reports and review-routing metrics. | Live demo, recruiter review packet, 10-case synthetic eval set, Markdown/JSON reports, CI, metrics |
 | Agent workflow trust | Agent Workflow Bench | I can benchmark planner-executor-reviewer-verifier workflows with artifacts and verifier outputs. | Public repo, simulated pipeline, CI, summary JSON, Markdown report, sample run artifacts |
 | Infrastructure trust | LLM Proxy Auditor | I can audit OpenAI-compatible proxy risks before connecting agents to them. | CI, deterministic probes, scoring model, report preview, case study |
 | Regulated-domain application | Gemma AML Compliance Assistant | I can build and evaluate offline RAG-style assistants for AML and due-diligence workflows with grounding, escalation, and uncertainty handling. | Public repo, CI, AML RAG case study, sample eval summary, governance checklist |
@@ -21,11 +21,13 @@ This portfolio connects four public projects into one coherent direction: LLM ou
 
 - Repo: https://github.com/benben951/agent-trust-lab
 - Live demo: https://benben951.github.io/agent-trust-lab/
+- Review packet: https://github.com/benben951/agent-trust-lab/blob/main/docs/REVIEW_PACKET.md
 
 Risk-sensitive LLM output evaluation system with a live review console, synthetic eval set, batch trust-report generation, evaluation metrics, and human-review routing.
 
 Public proof:
 
+- Recruiter-facing review packet with case library, metrics, representative reports, reproduction commands, interview pitch, resume bullets, and public-safe boundary
 - 10-case synthetic eval library across AML, KYC, due diligence, Trust & Safety, customer support compliance, agent output review, and AI data quality
 - Markdown trust reports and JSON summaries
 - Evaluation metrics: 80% manual-review routing, 40% low-trust cases, average risk score 53.0
