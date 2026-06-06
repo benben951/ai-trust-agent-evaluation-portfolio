@@ -1,4 +1,4 @@
-﻿# AI Trust & Agent Evaluation Portfolio
+# AI Trust & Agent Evaluation Portfolio
 
 This repository is a public entry point for my LLM evaluation, AI trust, and agent workflow projects.
 
@@ -21,7 +21,7 @@ I am building toward foreign-company roles in LLM evaluation, AI application eng
 | LLM endpoint trust | [LLM Proxy Auditor](https://github.com/benben951/llm-proxy-auditor) | Audits OpenAI-compatible proxy risks before agents depend on them. | Deterministic probes, scoring model, CI, report preview |
 | LLM output trust | [Agent Trust Lab](https://github.com/benben951/agent-trust-lab) | Converts ambiguous LLM outputs into reviewable trust reports and escalation metrics. | [Live demo](https://benben951.github.io/agent-trust-lab/), synthetic eval set, Markdown/JSON reports, CI |
 | Agent workflow trust | [Agent Workflow Bench](https://github.com/benben951/agent-workflow-bench) | Evaluates planner-executor-reviewer-verifier workflows with artifacts and verifier output. | Simulated pipeline, CI, sample run artifacts |
-| Regulated-domain application | [Gemma AML Compliance Assistant](https://github.com/benben951/gemma-aml-assistant) | Applies local LLM/RAG workflows to AML and due-diligence style knowledge assistance. | Public repo, compliance-oriented scenario, grounding and uncertainty handling |
+| Regulated-domain application | [Gemma AML Compliance Assistant](https://github.com/benben951/gemma-aml-assistant) | Applies local LLM/RAG workflows to AML and due-diligence style knowledge assistance. | Public repo, CI, AML RAG case study, sample eval summary, grounding and uncertainty handling |
 
 ## Why These Projects Fit Together
 
@@ -51,6 +51,10 @@ These projects intentionally use public-safe examples and synthetic evaluation d
 - No real customer or regulated case data is included.
 - High-risk decisions are framed as human-in-the-loop review workflows.
 - The projects demonstrate evaluation, review routing, reporting, and governance thinking rather than autonomous compliance approval.
+
+## Latest Evidence Update
+
+- `2026-06-06`: Strengthened [Gemma AML Compliance Assistant](https://github.com/benben951/gemma-aml-assistant) with a public-safe AML RAG case study, sample scored outputs, evaluation summary artifacts, CI badge, and human-in-the-loop governance boundary.
 
 ## Target Roles
 

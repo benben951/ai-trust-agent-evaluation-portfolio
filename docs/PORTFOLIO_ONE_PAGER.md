@@ -15,7 +15,7 @@ This portfolio connects four public projects into one coherent direction: LLM ou
 | LLM output trust | Agent Trust Lab | I can turn ambiguous LLM outputs into auditable trust reports and review-routing metrics. | Live demo, 10-case synthetic eval set, Markdown/JSON reports, CI, metrics |
 | Agent workflow trust | Agent Workflow Bench | I can benchmark planner-executor-reviewer-verifier workflows with artifacts and verifier outputs. | Public repo, simulated pipeline, CI, sample run artifacts |
 | Infrastructure trust | LLM Proxy Auditor | I can audit OpenAI-compatible proxy risks before connecting agents to them. | CI, deterministic probes, scoring model, report preview, case study |
-| Regulated-domain application | Gemma AML Compliance Assistant | I can build offline RAG-style assistants for AML and due-diligence workflows with grounding and uncertainty handling. | Public repo, local LLM/RAG workflow, compliance-oriented scenario |
+| Regulated-domain application | Gemma AML Compliance Assistant | I can build and evaluate offline RAG-style assistants for AML and due-diligence workflows with grounding, escalation, and uncertainty handling. | Public repo, CI, AML RAG case study, sample eval summary, governance checklist |
 
 ## 1. Agent Trust Lab
 
@@ -74,18 +74,21 @@ This project shows infrastructure-level trust thinking: before evaluating an age
 ## 4. Gemma AML Compliance Assistant
 
 - Repo: https://github.com/benben951/gemma-aml-assistant
+- Case study: https://github.com/benben951/gemma-aml-assistant/blob/main/docs/CASE_STUDY.md
 
 Offline AML and due-diligence assistant with local model inference, retrieval grounding, citation-aware responses, and compliance-oriented evaluation scenarios.
 
 Public proof:
 
 - Local LLM/RAG workflow for regulated-domain knowledge assistance
-- Focus on grounding, uncertainty handling, and hallucination risk
+- CI, tests, synthetic due-diligence eval cases, and a public-safe AML RAG case study
+- Sample scored-output evaluation: 5 synthetic outputs, 100% risk-point recall, 100% grounding-signal rate, 80% escalation-signal rate, and 20% unsafe-certainty control rate
+- Focus on grounding, uncertainty handling, hallucination risk, escalation behavior, and human-in-the-loop boundaries
 - Connects LLM application engineering with AML/due-diligence domain context
 
 Interview angle:
 
-This project shows I can build LLM applications in a regulated domain, not only generic chatbots or toy demos.
+This project shows I can build and evaluate LLM applications in a regulated domain, not only generic chatbots or toy demos. It connects my AML review background with grounding, evaluation, escalation, and governance design.
 
 ## How The Projects Fit Together
 
