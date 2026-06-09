@@ -6,6 +6,25 @@ My work focuses on a practical question:
 
 > Can this AI system be trusted enough to use, escalate, or reject in a real workflow?
 
+## Fast Review Path
+
+If you only have a few minutes, review these in order:
+
+| Step | Link | Why it matters |
+|---:|---|---|
+| 1 | [Agent Trust Lab live demo](https://benben951.github.io/agent-trust-lab/) | Browser-visible trust report workflow for risky LLM/agent outputs. |
+| 2 | [Agent Trust Lab review packet](https://github.com/benben951/agent-trust-lab/blob/main/docs/REVIEW_PACKET.md) | Three-minute summary with metrics, baseline comparison, reports, and limitations. |
+| 3 | [Agent Workflow Bench summary report](https://github.com/benben951/agent-workflow-bench/blob/main/examples/simulated_run/summary_report.md) | Multi-agent workflow evaluation with verifier artifacts, evidence coverage, and human takeover. |
+| 4 | [LLM Proxy Auditor trust report](https://github.com/benben951/llm-proxy-auditor/blob/main/examples/trust_report_example.md) | Endpoint/proxy trust report before agents depend on an API gateway. |
+| 5 | [Gemma AML evaluation snapshot](https://github.com/benben951/gemma-aml-assistant/blob/main/examples/sample_summary.json) | Regulated-domain RAG evaluation with grounding, escalation, and unsafe-certainty checks. |
+
+## What This Portfolio Proves
+
+- I can turn ambiguous LLM quality concerns into measurable review workflows.
+- I can build small public-safe systems with CI, examples, reports, screenshots, and reproducible commands.
+- I understand human-in-the-loop boundaries for risk-sensitive domains such as AML, compliance QA, due diligence, and trust and safety.
+- I am building toward agent workflow evaluation, not only prompt demos.
+
 I am building toward foreign-company roles in LLM evaluation, AI application engineering, Trust & Safety AI, risk-tech AI, and agent workflow evaluation. The projects below are public-safe prototypes and evaluation systems, not claims of production deployment.
 
 ## Portfolio One-Pager
